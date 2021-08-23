@@ -235,14 +235,16 @@
 				E0DC999426D3DFCA00B122C6 /* InfoAPI.swift */,
 				E0DC999626D3DFD800B122C6 /* TradeAPI.swift */,
 			);
-			path = PrivateAPI;
+			name = PrivateAPI;
+			path = Swifthumb/Classes/PrivateAPI;
 			sourceTree = "<group>";
 		};
 		E0DC999326D3DF9D00B122C6 /* PublicAPI */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = PublicAPI;
+			name = PublicAPI;
+			path = Swifthumb/Classes/PublicAPI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
