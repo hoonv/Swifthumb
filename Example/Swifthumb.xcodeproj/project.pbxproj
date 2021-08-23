@@ -31,8 +31,8 @@
 		04CEA14819D10B6C79FE821F /* Pods-Swifthumb_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swifthumb_Example.debug.xcconfig"; path = "Target Support Files/Pods-Swifthumb_Example/Pods-Swifthumb_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2702CF6364CD8A36D98EB32B /* Pods-Swifthumb_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swifthumb_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Swifthumb_Tests/Pods-Swifthumb_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		275E94B75F5C7BC1623FECED /* Pods_Swifthumb_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swifthumb_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3AE7E0620920F68873FF524F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		593AA363BEA2D7C42EA80C06 /* Swifthumb.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Swifthumb.podspec; path = ../Swifthumb.podspec; sourceTree = "<group>"; };
+		3AE7E0620920F68873FF524F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		593AA363BEA2D7C42EA80C06 /* Swifthumb.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Swifthumb.podspec; path = ../Swifthumb.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5F384E2E6389F5FFAE1325AF /* Pods-Swifthumb_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swifthumb_Example.release.xcconfig"; path = "Target Support Files/Pods-Swifthumb_Example/Pods-Swifthumb_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* Swifthumb_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swifthumb_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		A103EC398F86F72FAB8EC516 /* Pods_Swifthumb_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swifthumb_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC0C5DC80F97F9848750515D /* Pods-Swifthumb_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swifthumb_Tests.release.xcconfig"; path = "Target Support Files/Pods-Swifthumb_Tests/Pods-Swifthumb_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E78C214648E2130E4603FC59 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E78C214648E2130E4603FC59 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				2702CF6364CD8A36D98EB32B /* Pods-Swifthumb_Tests.debug.xcconfig */,
 				DC0C5DC80F97F9848750515D /* Pods-Swifthumb_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

@@ -1,0 +1,6 @@
+framework module Swifthumb {
+  umbrella header "Swifthumb-umbrella.h"
+
+  export *
+  module * { export * }
+}

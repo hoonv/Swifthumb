@@ -7,12 +7,14 @@
 //
 
 import UIKit
+import Swifthumb
+
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        Swifthumb(apiKey: "", secretKey: "")
     }
 
     override func didReceiveMemoryWarning() {

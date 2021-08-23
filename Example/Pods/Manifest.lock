@@ -1,0 +1,16 @@
+PODS:
+  - Swifthumb (0.1.0)
+
+DEPENDENCIES:
+  - Swifthumb (from `../`)
+
+EXTERNAL SOURCES:
+  Swifthumb:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Swifthumb: 564704fba4b6c8e5bdcf03b0fc9d753db2af7c3a
+
+PODFILE CHECKSUM: a930cc8c2cdfee6a904bca1c2a8866d427066aa1
+
+COCOAPODS: 1.10.1
