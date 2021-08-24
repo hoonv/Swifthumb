@@ -3,16 +3,14 @@ import Foundation
 
 public class Swifthumb {
     
-    private let apiKey: String
-    private let secretKey: String
+    
+    let privateAPIManager: PrivateAPIManager
     
     public init(apiKey: String, secretKey: String) {
-        self.apiKey = apiKey
-        self.secretKey = secretKey
+        privateAPIManager = PrivateAPIManager(apiKey: apiKey, secretKey: secretKey)
     }
     
     public func hello() {
-        print("hello")
+        privateAPIManager.infoAPI.account()
     }
-    
 }

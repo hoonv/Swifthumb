@@ -81,7 +81,7 @@
 		E0DC999626D3DFD800B122C6 /* TradeAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeAPI.swift; sourceTree = "<group>"; };
 		E0DC999826D3E1AB00B122C6 /* PrivateAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateAPIManager.swift; sourceTree = "<group>"; };
 		E0DC999A26D3E41900B122C6 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Constant.swift; path = Swifthumb/Classes/Constant.swift; sourceTree = "<group>"; };
-		E0DC999F26D4C05300B122C6 /* APIRequester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APIRequester.swift; path = Swifthumb/Classes/APIRequester.swift; sourceTree = "<group>"; };
+		E0DC999F26D4C05300B122C6 /* APIRequester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequester.swift; sourceTree = "<group>"; };
 		E31A99A42D666DC65854F8C5CE6D1C12 /* Swifthumb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Swifthumb.debug.xcconfig; sourceTree = "<group>"; };
 		F5921F49C0BC18A793C91D0ED0081A6E /* Pods-Swifthumb_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Swifthumb_Tests-dummy.m"; sourceTree = "<group>"; };
 		F97DCEAC7EDFFE9D886FC25F8CBC8369 /* Pods-Swifthumb_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Swifthumb_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -121,7 +121,6 @@
 				E0DC999326D3DF9D00B122C6 /* PublicAPI */,
 				E0DC999226D3DF9600B122C6 /* PrivateAPI */,
 				DA498A0DED3D00C8502361294FDEA694 /* Swifthumb.swift */,
-				E0DC999F26D4C05300B122C6 /* APIRequester.swift */,
 				E0DC999A26D3E41900B122C6 /* Constant.swift */,
 				22D0A5C972199D20C120573191597802 /* Pod */,
 				D67A58C1696F912185F2773131A4F962 /* Support Files */,
@@ -248,6 +247,7 @@
 				E0DC999426D3DFCA00B122C6 /* InfoAPI.swift */,
 				E0DC999626D3DFD800B122C6 /* TradeAPI.swift */,
 				E0DC999826D3E1AB00B122C6 /* PrivateAPIManager.swift */,
+				E0DC999F26D4C05300B122C6 /* APIRequester.swift */,
 			);
 			name = PrivateAPI;
 			path = Swifthumb/Classes/PrivateAPI;
@@ -356,6 +356,9 @@
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
+					085BB7894BDBFF5A565C559DFE313E1B = {
+						LastSwiftMigration = 1250;
+					};
 					8C9A9F1E3DFC8D599207868FAA65178E = {
 						LastSwiftMigration = 1250;
 					};
@@ -549,7 +552,7 @@
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -780,7 +783,7 @@
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";

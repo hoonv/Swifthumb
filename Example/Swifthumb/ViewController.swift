@@ -11,10 +11,11 @@ import Swifthumb
 
 
 class ViewController: UIViewController {
-
+    let bithumb = Swifthumb(apiKey: "", secretKey: "")
     override func viewDidLoad() {
         super.viewDidLoad()
-        Swifthumb(apiKey: "", secretKey: "")
+        bithumb.hello()
+        
     }
 
     override func didReceiveMemoryWarning() {
