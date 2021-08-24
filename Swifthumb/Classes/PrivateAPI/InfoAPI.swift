@@ -43,11 +43,18 @@ public struct InfoAPI: InfoAPIList {
     }
     
     public func walletAddress() {
+        let endpoint = infoURL + "/wallet_address"
+        var newParams = params
+        newParams["endpoint"] = endpoint
+        requester.request(endPoint: endpoint, params: newParams)
         
     }
     
     public func ticker() {
-        
+        let endpoint = infoURL + "/ticker"
+        var newParams = params
+        newParams["endpoint"] = endpoint
+        requester.request(endPoint: endpoint, params: newParams)
     }
     
     public func orders() {
