@@ -20,8 +20,8 @@ struct PrivateAPIManager: InfoAPIList, TradeAPIList {
         infoAPI = InfoAPI(requester: requester)
         tradeAPI = TradeAPI(requester: requester)
     }
-    func account() {
-        infoAPI.account()
+    func account(orderCurrency: String = "BTC") {
+        infoAPI.account(orderCurrency: orderCurrency)
     }
     
     func balance() {

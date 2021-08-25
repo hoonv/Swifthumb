@@ -27,6 +27,10 @@
 		E0DC99A226D4C1DB00B122C6 /* PrivateAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DC999826D3E1AB00B122C6 /* PrivateAPIManager.swift */; };
 		E0DC99A326D4C1DE00B122C6 /* TradeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DC999626D3DFD800B122C6 /* TradeAPI.swift */; };
 		E0DC99A426D4C1E000B122C6 /* InfoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DC999426D3DFCA00B122C6 /* InfoAPI.swift */; };
+		E0DC99A726D505FB00B122C6 /* AccountRes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DC99A626D505FB00B122C6 /* AccountRes.swift */; };
+		E0DC99A826D505FB00B122C6 /* AccountRes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DC99A626D505FB00B122C6 /* AccountRes.swift */; };
+		E0DC99AA26D5100E00B122C6 /* BalanceRes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DC99A926D5100E00B122C6 /* BalanceRes.swift */; };
+		E0DC99AB26D5100E00B122C6 /* BalanceRes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DC99A926D5100E00B122C6 /* BalanceRes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +86,8 @@
 		E0DC999826D3E1AB00B122C6 /* PrivateAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateAPIManager.swift; sourceTree = "<group>"; };
 		E0DC999A26D3E41900B122C6 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Constant.swift; path = Swifthumb/Classes/Constant.swift; sourceTree = "<group>"; };
 		E0DC999F26D4C05300B122C6 /* APIRequester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequester.swift; sourceTree = "<group>"; };
+		E0DC99A626D505FB00B122C6 /* AccountRes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountRes.swift; sourceTree = "<group>"; };
+		E0DC99A926D5100E00B122C6 /* BalanceRes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceRes.swift; sourceTree = "<group>"; };
 		E31A99A42D666DC65854F8C5CE6D1C12 /* Swifthumb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Swifthumb.debug.xcconfig; sourceTree = "<group>"; };
 		F5921F49C0BC18A793C91D0ED0081A6E /* Pods-Swifthumb_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Swifthumb_Tests-dummy.m"; sourceTree = "<group>"; };
 		F97DCEAC7EDFFE9D886FC25F8CBC8369 /* Pods-Swifthumb_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Swifthumb_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -118,6 +124,7 @@
 		0B06552CE9C8FB33F18A64600E895E1E /* Swifthumb */ = {
 			isa = PBXGroup;
 			children = (
+				E0DC99A526D505F000B122C6 /* Response */,
 				E0DC999326D3DF9D00B122C6 /* PublicAPI */,
 				E0DC999226D3DF9600B122C6 /* PrivateAPI */,
 				DA498A0DED3D00C8502361294FDEA694 /* Swifthumb.swift */,
@@ -259,6 +266,15 @@
 			);
 			name = PublicAPI;
 			path = Swifthumb/Classes/PublicAPI;
+			sourceTree = "<group>";
+		};
+		E0DC99A526D505F000B122C6 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				E0DC99A626D505FB00B122C6 /* AccountRes.swift */,
+				E0DC99A926D5100E00B122C6 /* BalanceRes.swift */,
+			);
+			path = Response;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -415,8 +431,10 @@
 			files = (
 				E0DC999526D3DFCA00B122C6 /* InfoAPI.swift in Sources */,
 				E0DC99A026D4C05300B122C6 /* APIRequester.swift in Sources */,
+				E0DC99A726D505FB00B122C6 /* AccountRes.swift in Sources */,
 				3DDB17351D1EB0DFD6C21A7674FE8472 /* Pods-Swifthumb_Example-dummy.m in Sources */,
 				E0DC999B26D3E41900B122C6 /* Constant.swift in Sources */,
+				E0DC99AA26D5100E00B122C6 /* BalanceRes.swift in Sources */,
 				E0DC999926D3E1AB00B122C6 /* PrivateAPIManager.swift in Sources */,
 				E0DC999726D3DFD800B122C6 /* TradeAPI.swift in Sources */,
 			);
@@ -431,7 +449,9 @@
 				E0DC99A226D4C1DB00B122C6 /* PrivateAPIManager.swift in Sources */,
 				E0DC999C26D3E41900B122C6 /* Constant.swift in Sources */,
 				E0DC99A426D4C1E000B122C6 /* InfoAPI.swift in Sources */,
+				E0DC99A826D505FB00B122C6 /* AccountRes.swift in Sources */,
 				E0DC99A126D4C05300B122C6 /* APIRequester.swift in Sources */,
+				E0DC99AB26D5100E00B122C6 /* BalanceRes.swift in Sources */,
 				E0DC99A326D4C1DE00B122C6 /* TradeAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

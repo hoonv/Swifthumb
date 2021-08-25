@@ -8,7 +8,7 @@
 import Foundation
 
 protocol InfoAPIList {
-    func account()
+    func account(orderCurrency: String)
     func balance()
     func walletAddress()
     func ticker()
@@ -28,10 +28,11 @@ public struct InfoAPI: InfoAPIList {
         self.requester = requester
     }
     
-    public func account() {
+    public func account(orderCurrency: String = "BTC") {
         let endpoint = infoURL + "/account"
         var newParams = params
         newParams["endpoint"] = endpoint
+        newParams["order_currency"] = orderCurrency
         requester.request(endPoint: endpoint, params: newParams)
     }
     
@@ -39,6 +40,8 @@ public struct InfoAPI: InfoAPIList {
         let endpoint = infoURL + "/balance"
         var newParams = params
         newParams["endpoint"] = endpoint
+        newParams["currency"] = "TEMCO"
+
         requester.request(endPoint: endpoint, params: newParams)
     }
     

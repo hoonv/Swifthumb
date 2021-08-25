@@ -11,6 +11,6 @@ public class Swifthumb {
     }
     
     public func hello() {
-        privateAPIManager.infoAPI.account()
+        privateAPIManager.infoAPI.balance()
     }
 }
