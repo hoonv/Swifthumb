@@ -39,8 +39,6 @@ public class APIRequester {
         request.addValue(specs.nonce, forHTTPHeaderField: "Api-Nonce")
         URLSession.shared.dataTask(with: request) { data, _, _ in
             guard let data = data else { return }
-            let json = try? JSONDecoder().decode(AccountResponse.self, from: data)
-            print(json ?? "")
             print(String(data: data, encoding: .utf8)!)
         }.resume()
     }
