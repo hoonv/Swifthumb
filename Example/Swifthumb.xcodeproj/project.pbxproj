@@ -212,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 7BP3494UVW;
 						LastSwiftMigration = 1250;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 7BP3494UVW;
 						LastSwiftMigration = 1250;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -485,6 +487,7 @@
 			baseConfigurationReference = 04CEA14819D10B6C79FE821F /* Pods-Swifthumb_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7BP3494UVW;
 				INFOPLIST_FILE = Swifthumb/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -501,6 +504,7 @@
 			baseConfigurationReference = 5F384E2E6389F5FFAE1325AF /* Pods-Swifthumb_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7BP3494UVW;
 				INFOPLIST_FILE = Swifthumb/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -516,6 +520,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2702CF6364CD8A36D98EB32B /* Pods-Swifthumb_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 7BP3494UVW;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -538,6 +543,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DC0C5DC80F97F9848750515D /* Pods-Swifthumb_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 7BP3494UVW;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

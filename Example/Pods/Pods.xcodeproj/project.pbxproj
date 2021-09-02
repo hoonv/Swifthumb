@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		190601FAFAEBAB02ED6840D3185B97C0 /* Swifthumb-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D2F51C75D6DD827514D532EDABC8979 /* Swifthumb-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2543B2B8EDEBEC871B12C8E6D10C4274 /* Pods-Swifthumb_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 407692DB017D2BCA03637C8A40D6A6B2 /* Pods-Swifthumb_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		326F4C64A274A55C3DD16CBD4E4C02C2 /* Swifthumb.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA498A0DED3D00C8502361294FDEA694 /* Swifthumb.swift */; };
 		3DDB17351D1EB0DFD6C21A7674FE8472 /* Pods-Swifthumb_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B4327EC62CEFCBEC3514C9912C0CFD /* Pods-Swifthumb_Example-dummy.m */; };
 		59F111BB58863B56246E1A23178A3EFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		5B6C0C35918ADBEBC9C4C62C10DB1FF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -17,20 +16,22 @@
 		9355F3C552AB46884F2302408D197AB1 /* Swifthumb-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA4EBA10C1267386EE2E67BC1CCE590 /* Swifthumb-dummy.m */; };
 		BD7A93C2E780E32E191288A8E48C3276 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		D2209171666FDA049BB4C4B0817ADD7D /* Pods-Swifthumb_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4141DE68FA05A8A56D0AF8E8BF6675A4 /* Pods-Swifthumb_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E0DC999526D3DFCA00B122C6 /* InfoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DC999426D3DFCA00B122C6 /* InfoAPI.swift */; };
-		E0DC999726D3DFD800B122C6 /* TradeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DC999626D3DFD800B122C6 /* TradeAPI.swift */; };
-		E0DC999926D3E1AB00B122C6 /* PrivateAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DC999826D3E1AB00B122C6 /* PrivateAPIManager.swift */; };
-		E0DC999B26D3E41900B122C6 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DC999A26D3E41900B122C6 /* Constant.swift */; };
-		E0DC999C26D3E41900B122C6 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DC999A26D3E41900B122C6 /* Constant.swift */; };
-		E0DC99A026D4C05300B122C6 /* APIRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DC999F26D4C05300B122C6 /* APIRequester.swift */; };
-		E0DC99A126D4C05300B122C6 /* APIRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DC999F26D4C05300B122C6 /* APIRequester.swift */; };
-		E0DC99A226D4C1DB00B122C6 /* PrivateAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DC999826D3E1AB00B122C6 /* PrivateAPIManager.swift */; };
-		E0DC99A326D4C1DE00B122C6 /* TradeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DC999626D3DFD800B122C6 /* TradeAPI.swift */; };
-		E0DC99A426D4C1E000B122C6 /* InfoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DC999426D3DFCA00B122C6 /* InfoAPI.swift */; };
-		E0DC99B326D5EB1A00B122C6 /* AccountRes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DC99B126D5EB1A00B122C6 /* AccountRes.swift */; };
-		E0DC99B426D5EB1A00B122C6 /* AccountRes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DC99B126D5EB1A00B122C6 /* AccountRes.swift */; };
-		E0DC99B526D5EB1A00B122C6 /* BalanceRes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DC99B226D5EB1A00B122C6 /* BalanceRes.swift */; };
-		E0DC99B626D5EB1A00B122C6 /* BalanceRes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DC99B226D5EB1A00B122C6 /* BalanceRes.swift */; };
+		E0050E3526E1945F002BFDA0 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0050E3326E1945F002BFDA0 /* Constant.swift */; };
+		E0050E3626E1945F002BFDA0 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0050E3326E1945F002BFDA0 /* Constant.swift */; };
+		E0050E3726E1945F002BFDA0 /* Swifthumb.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0050E3426E1945F002BFDA0 /* Swifthumb.swift */; };
+		E0050E3826E1945F002BFDA0 /* Swifthumb.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0050E3426E1945F002BFDA0 /* Swifthumb.swift */; };
+		E0050E4126E1946F002BFDA0 /* TradeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0050E3A26E1946F002BFDA0 /* TradeAPI.swift */; };
+		E0050E4226E1946F002BFDA0 /* TradeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0050E3A26E1946F002BFDA0 /* TradeAPI.swift */; };
+		E0050E4326E1946F002BFDA0 /* APIRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0050E3B26E1946F002BFDA0 /* APIRequester.swift */; };
+		E0050E4426E1946F002BFDA0 /* APIRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0050E3B26E1946F002BFDA0 /* APIRequester.swift */; };
+		E0050E4526E1946F002BFDA0 /* PrivateAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0050E3C26E1946F002BFDA0 /* PrivateAPIManager.swift */; };
+		E0050E4626E1946F002BFDA0 /* PrivateAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0050E3C26E1946F002BFDA0 /* PrivateAPIManager.swift */; };
+		E0050E4726E1946F002BFDA0 /* InfoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0050E3D26E1946F002BFDA0 /* InfoAPI.swift */; };
+		E0050E4826E1946F002BFDA0 /* InfoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0050E3D26E1946F002BFDA0 /* InfoAPI.swift */; };
+		E0050E4926E1946F002BFDA0 /* AccountRes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0050E3F26E1946F002BFDA0 /* AccountRes.swift */; };
+		E0050E4A26E1946F002BFDA0 /* AccountRes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0050E3F26E1946F002BFDA0 /* AccountRes.swift */; };
+		E0050E4B26E1946F002BFDA0 /* BalanceRes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0050E4026E1946F002BFDA0 /* BalanceRes.swift */; };
+		E0050E4C26E1946F002BFDA0 /* BalanceRes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0050E4026E1946F002BFDA0 /* BalanceRes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,14 +81,14 @@
 		C330D938DAE88BC58ECF61052FED7085 /* Swifthumb.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Swifthumb.modulemap; sourceTree = "<group>"; };
 		C42BF768AAC9FB19950875AD96BE85A2 /* Pods-Swifthumb_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Swifthumb_Example.modulemap"; sourceTree = "<group>"; };
 		CBBF1A9666D502DC4AF50F1A9BA252F4 /* Pods-Swifthumb_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Swifthumb_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		DA498A0DED3D00C8502361294FDEA694 /* Swifthumb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Swifthumb.swift; path = Swifthumb/Classes/Swifthumb.swift; sourceTree = "<group>"; };
-		E0DC999426D3DFCA00B122C6 /* InfoAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoAPI.swift; sourceTree = "<group>"; };
-		E0DC999626D3DFD800B122C6 /* TradeAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeAPI.swift; sourceTree = "<group>"; };
-		E0DC999826D3E1AB00B122C6 /* PrivateAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateAPIManager.swift; sourceTree = "<group>"; };
-		E0DC999A26D3E41900B122C6 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Constant.swift; path = Swifthumb/Classes/Constant.swift; sourceTree = "<group>"; };
-		E0DC999F26D4C05300B122C6 /* APIRequester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequester.swift; sourceTree = "<group>"; };
-		E0DC99B126D5EB1A00B122C6 /* AccountRes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountRes.swift; sourceTree = "<group>"; };
-		E0DC99B226D5EB1A00B122C6 /* BalanceRes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalanceRes.swift; sourceTree = "<group>"; };
+		E0050E3326E1945F002BFDA0 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constant.swift; path = Sources/Swifthumb/Classes/Constant.swift; sourceTree = "<group>"; };
+		E0050E3426E1945F002BFDA0 /* Swifthumb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Swifthumb.swift; path = Sources/Swifthumb/Classes/Swifthumb.swift; sourceTree = "<group>"; };
+		E0050E3A26E1946F002BFDA0 /* TradeAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TradeAPI.swift; sourceTree = "<group>"; };
+		E0050E3B26E1946F002BFDA0 /* APIRequester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequester.swift; sourceTree = "<group>"; };
+		E0050E3C26E1946F002BFDA0 /* PrivateAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivateAPIManager.swift; sourceTree = "<group>"; };
+		E0050E3D26E1946F002BFDA0 /* InfoAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoAPI.swift; sourceTree = "<group>"; };
+		E0050E3F26E1946F002BFDA0 /* AccountRes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountRes.swift; sourceTree = "<group>"; };
+		E0050E4026E1946F002BFDA0 /* BalanceRes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalanceRes.swift; sourceTree = "<group>"; };
 		E31A99A42D666DC65854F8C5CE6D1C12 /* Swifthumb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Swifthumb.debug.xcconfig; sourceTree = "<group>"; };
 		F5921F49C0BC18A793C91D0ED0081A6E /* Pods-Swifthumb_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Swifthumb_Tests-dummy.m"; sourceTree = "<group>"; };
 		F97DCEAC7EDFFE9D886FC25F8CBC8369 /* Pods-Swifthumb_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Swifthumb_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -124,11 +125,10 @@
 		0B06552CE9C8FB33F18A64600E895E1E /* Swifthumb */ = {
 			isa = PBXGroup;
 			children = (
-				E0DC99B026D5EB1A00B122C6 /* Response */,
-				E0DC999326D3DF9D00B122C6 /* PublicAPI */,
-				E0DC999226D3DF9600B122C6 /* PrivateAPI */,
-				DA498A0DED3D00C8502361294FDEA694 /* Swifthumb.swift */,
-				E0DC999A26D3E41900B122C6 /* Constant.swift */,
+				E0050E3926E1946F002BFDA0 /* PrivateAPI */,
+				E0050E3E26E1946F002BFDA0 /* Response */,
+				E0050E3326E1945F002BFDA0 /* Constant.swift */,
+				E0050E3426E1945F002BFDA0 /* Swifthumb.swift */,
 				22D0A5C972199D20C120573191597802 /* Pod */,
 				D67A58C1696F912185F2773131A4F962 /* Support Files */,
 			);
@@ -248,34 +248,26 @@
 			path = "Example/Pods/Target Support Files/Swifthumb";
 			sourceTree = "<group>";
 		};
-		E0DC999226D3DF9600B122C6 /* PrivateAPI */ = {
+		E0050E3926E1946F002BFDA0 /* PrivateAPI */ = {
 			isa = PBXGroup;
 			children = (
-				E0DC999426D3DFCA00B122C6 /* InfoAPI.swift */,
-				E0DC999626D3DFD800B122C6 /* TradeAPI.swift */,
-				E0DC999826D3E1AB00B122C6 /* PrivateAPIManager.swift */,
-				E0DC999F26D4C05300B122C6 /* APIRequester.swift */,
+				E0050E3A26E1946F002BFDA0 /* TradeAPI.swift */,
+				E0050E3B26E1946F002BFDA0 /* APIRequester.swift */,
+				E0050E3C26E1946F002BFDA0 /* PrivateAPIManager.swift */,
+				E0050E3D26E1946F002BFDA0 /* InfoAPI.swift */,
 			);
 			name = PrivateAPI;
-			path = Swifthumb/Classes/PrivateAPI;
+			path = Sources/Swifthumb/Classes/PrivateAPI;
 			sourceTree = "<group>";
 		};
-		E0DC999326D3DF9D00B122C6 /* PublicAPI */ = {
+		E0050E3E26E1946F002BFDA0 /* Response */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			name = PublicAPI;
-			path = Swifthumb/Classes/PublicAPI;
-			sourceTree = "<group>";
-		};
-		E0DC99B026D5EB1A00B122C6 /* Response */ = {
-			isa = PBXGroup;
-			children = (
-				E0DC99B126D5EB1A00B122C6 /* AccountRes.swift */,
-				E0DC99B226D5EB1A00B122C6 /* BalanceRes.swift */,
+				E0050E3F26E1946F002BFDA0 /* AccountRes.swift */,
+				E0050E4026E1946F002BFDA0 /* BalanceRes.swift */,
 			);
 			name = Response;
-			path = Swifthumb/Classes/Response;
+			path = Sources/Swifthumb/Classes/Response;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -430,14 +422,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0DC999526D3DFCA00B122C6 /* InfoAPI.swift in Sources */,
-				E0DC99A026D4C05300B122C6 /* APIRequester.swift in Sources */,
+				E0050E4526E1946F002BFDA0 /* PrivateAPIManager.swift in Sources */,
+				E0050E3526E1945F002BFDA0 /* Constant.swift in Sources */,
 				3DDB17351D1EB0DFD6C21A7674FE8472 /* Pods-Swifthumb_Example-dummy.m in Sources */,
-				E0DC999B26D3E41900B122C6 /* Constant.swift in Sources */,
-				E0DC99B526D5EB1A00B122C6 /* BalanceRes.swift in Sources */,
-				E0DC99B326D5EB1A00B122C6 /* AccountRes.swift in Sources */,
-				E0DC999926D3E1AB00B122C6 /* PrivateAPIManager.swift in Sources */,
-				E0DC999726D3DFD800B122C6 /* TradeAPI.swift in Sources */,
+				E0050E4326E1946F002BFDA0 /* APIRequester.swift in Sources */,
+				E0050E4726E1946F002BFDA0 /* InfoAPI.swift in Sources */,
+				E0050E4B26E1946F002BFDA0 /* BalanceRes.swift in Sources */,
+				E0050E3726E1945F002BFDA0 /* Swifthumb.swift in Sources */,
+				E0050E4926E1946F002BFDA0 /* AccountRes.swift in Sources */,
+				E0050E4126E1946F002BFDA0 /* TradeAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,15 +438,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				326F4C64A274A55C3DD16CBD4E4C02C2 /* Swifthumb.swift in Sources */,
 				9355F3C552AB46884F2302408D197AB1 /* Swifthumb-dummy.m in Sources */,
-				E0DC99A226D4C1DB00B122C6 /* PrivateAPIManager.swift in Sources */,
-				E0DC999C26D3E41900B122C6 /* Constant.swift in Sources */,
-				E0DC99A426D4C1E000B122C6 /* InfoAPI.swift in Sources */,
-				E0DC99A126D4C05300B122C6 /* APIRequester.swift in Sources */,
-				E0DC99B426D5EB1A00B122C6 /* AccountRes.swift in Sources */,
-				E0DC99A326D4C1DE00B122C6 /* TradeAPI.swift in Sources */,
-				E0DC99B626D5EB1A00B122C6 /* BalanceRes.swift in Sources */,
+				E0050E4626E1946F002BFDA0 /* PrivateAPIManager.swift in Sources */,
+				E0050E3826E1945F002BFDA0 /* Swifthumb.swift in Sources */,
+				E0050E4426E1946F002BFDA0 /* APIRequester.swift in Sources */,
+				E0050E4826E1946F002BFDA0 /* InfoAPI.swift in Sources */,
+				E0050E3626E1945F002BFDA0 /* Constant.swift in Sources */,
+				E0050E4C26E1946F002BFDA0 /* BalanceRes.swift in Sources */,
+				E0050E4A26E1946F002BFDA0 /* AccountRes.swift in Sources */,
+				E0050E4226E1946F002BFDA0 /* TradeAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
