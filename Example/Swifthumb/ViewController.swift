@@ -14,7 +14,9 @@ class ViewController: UIViewController {
     let bithumb = Swifthumb(apiKey: "", secretKey: "")
     override func viewDidLoad() {
         super.viewDidLoad()
-        bithumb.hello()
+        PublicAPIManager().getAllTicker {
+            print($0)
+        }
         
     }
 

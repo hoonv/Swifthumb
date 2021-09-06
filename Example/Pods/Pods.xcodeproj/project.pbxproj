@@ -32,6 +32,10 @@
 		E0050E4A26E1946F002BFDA0 /* AccountRes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0050E3F26E1946F002BFDA0 /* AccountRes.swift */; };
 		E0050E4B26E1946F002BFDA0 /* BalanceRes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0050E4026E1946F002BFDA0 /* BalanceRes.swift */; };
 		E0050E4C26E1946F002BFDA0 /* BalanceRes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0050E4026E1946F002BFDA0 /* BalanceRes.swift */; };
+		E0EB3D4B26E1F84E000D96A6 /* PublicAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EB3D4A26E1F84E000D96A6 /* PublicAPIManager.swift */; };
+		E0EB3D4F26E1F968000D96A6 /* PublicAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EB3D4A26E1F84E000D96A6 /* PublicAPIManager.swift */; };
+		E0EB3D5126E1FB2B000D96A6 /* TickerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EB3D5026E1FB2B000D96A6 /* TickerResponse.swift */; };
+		E0EB3D5226E1FB2D000D96A6 /* TickerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EB3D5026E1FB2B000D96A6 /* TickerResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,14 +85,16 @@
 		C330D938DAE88BC58ECF61052FED7085 /* Swifthumb.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Swifthumb.modulemap; sourceTree = "<group>"; };
 		C42BF768AAC9FB19950875AD96BE85A2 /* Pods-Swifthumb_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Swifthumb_Example.modulemap"; sourceTree = "<group>"; };
 		CBBF1A9666D502DC4AF50F1A9BA252F4 /* Pods-Swifthumb_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Swifthumb_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		E0050E3326E1945F002BFDA0 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constant.swift; path = Sources/Swifthumb/Classes/Constant.swift; sourceTree = "<group>"; };
-		E0050E3426E1945F002BFDA0 /* Swifthumb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Swifthumb.swift; path = Sources/Swifthumb/Classes/Swifthumb.swift; sourceTree = "<group>"; };
+		E0050E3326E1945F002BFDA0 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		E0050E3426E1945F002BFDA0 /* Swifthumb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swifthumb.swift; sourceTree = "<group>"; };
 		E0050E3A26E1946F002BFDA0 /* TradeAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TradeAPI.swift; sourceTree = "<group>"; };
 		E0050E3B26E1946F002BFDA0 /* APIRequester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequester.swift; sourceTree = "<group>"; };
 		E0050E3C26E1946F002BFDA0 /* PrivateAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivateAPIManager.swift; sourceTree = "<group>"; };
 		E0050E3D26E1946F002BFDA0 /* InfoAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoAPI.swift; sourceTree = "<group>"; };
 		E0050E3F26E1946F002BFDA0 /* AccountRes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountRes.swift; sourceTree = "<group>"; };
 		E0050E4026E1946F002BFDA0 /* BalanceRes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalanceRes.swift; sourceTree = "<group>"; };
+		E0EB3D4A26E1F84E000D96A6 /* PublicAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicAPIManager.swift; sourceTree = "<group>"; };
+		E0EB3D5026E1FB2B000D96A6 /* TickerResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerResponse.swift; sourceTree = "<group>"; };
 		E31A99A42D666DC65854F8C5CE6D1C12 /* Swifthumb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Swifthumb.debug.xcconfig; sourceTree = "<group>"; };
 		F5921F49C0BC18A793C91D0ED0081A6E /* Pods-Swifthumb_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Swifthumb_Tests-dummy.m"; sourceTree = "<group>"; };
 		F97DCEAC7EDFFE9D886FC25F8CBC8369 /* Pods-Swifthumb_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Swifthumb_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -125,6 +131,7 @@
 		0B06552CE9C8FB33F18A64600E895E1E /* Swifthumb */ = {
 			isa = PBXGroup;
 			children = (
+				E0EB3D4926E1F83B000D96A6 /* PublicAPI */,
 				E0050E3926E1946F002BFDA0 /* PrivateAPI */,
 				E0050E3E26E1946F002BFDA0 /* Response */,
 				E0050E3326E1945F002BFDA0 /* Constant.swift */,
@@ -133,7 +140,7 @@
 				D67A58C1696F912185F2773131A4F962 /* Support Files */,
 			);
 			name = Swifthumb;
-			path = ../..;
+			path = ../../Sources/Swifthumb/Classes;
 			sourceTree = "<group>";
 		};
 		22D0A5C972199D20C120573191597802 /* Pod */ = {
@@ -245,7 +252,7 @@
 				1DE4F7376C94DAC044CD196188E86C02 /* Swifthumb.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Swifthumb";
+			path = "../../../Example/Pods/Target Support Files/Swifthumb";
 			sourceTree = "<group>";
 		};
 		E0050E3926E1946F002BFDA0 /* PrivateAPI */ = {
@@ -256,8 +263,7 @@
 				E0050E3C26E1946F002BFDA0 /* PrivateAPIManager.swift */,
 				E0050E3D26E1946F002BFDA0 /* InfoAPI.swift */,
 			);
-			name = PrivateAPI;
-			path = Sources/Swifthumb/Classes/PrivateAPI;
+			path = PrivateAPI;
 			sourceTree = "<group>";
 		};
 		E0050E3E26E1946F002BFDA0 /* Response */ = {
@@ -266,8 +272,16 @@
 				E0050E3F26E1946F002BFDA0 /* AccountRes.swift */,
 				E0050E4026E1946F002BFDA0 /* BalanceRes.swift */,
 			);
-			name = Response;
-			path = Sources/Swifthumb/Classes/Response;
+			path = Response;
+			sourceTree = "<group>";
+		};
+		E0EB3D4926E1F83B000D96A6 /* PublicAPI */ = {
+			isa = PBXGroup;
+			children = (
+				E0EB3D4A26E1F84E000D96A6 /* PublicAPIManager.swift */,
+				E0EB3D5026E1FB2B000D96A6 /* TickerResponse.swift */,
+			);
+			path = PublicAPI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -422,7 +436,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0EB3D5126E1FB2B000D96A6 /* TickerResponse.swift in Sources */,
 				E0050E4526E1946F002BFDA0 /* PrivateAPIManager.swift in Sources */,
+				E0EB3D4B26E1F84E000D96A6 /* PublicAPIManager.swift in Sources */,
 				E0050E3526E1945F002BFDA0 /* Constant.swift in Sources */,
 				3DDB17351D1EB0DFD6C21A7674FE8472 /* Pods-Swifthumb_Example-dummy.m in Sources */,
 				E0050E4326E1946F002BFDA0 /* APIRequester.swift in Sources */,
@@ -438,7 +454,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0EB3D5226E1FB2D000D96A6 /* TickerResponse.swift in Sources */,
 				9355F3C552AB46884F2302408D197AB1 /* Swifthumb-dummy.m in Sources */,
+				E0EB3D4F26E1F968000D96A6 /* PublicAPIManager.swift in Sources */,
 				E0050E4626E1946F002BFDA0 /* PrivateAPIManager.swift in Sources */,
 				E0050E3826E1945F002BFDA0 /* Swifthumb.swift in Sources */,
 				E0050E4426E1946F002BFDA0 /* APIRequester.swift in Sources */,
