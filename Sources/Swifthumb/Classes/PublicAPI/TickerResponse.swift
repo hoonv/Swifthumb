@@ -8,8 +8,8 @@
 import Foundation
 
 public struct TickerResponse: Codable {
-    let status: String
-    let data: [String: OneTicker]
+    public let status: String
+    public let data: [String: OneTicker]
     enum CodingKeys: String, CodingKey {
         case data = "data"
         case status = "status"
@@ -17,9 +17,9 @@ public struct TickerResponse: Codable {
 }
 
 public struct OneTicker: Codable {
-    let openingPrice, closingPrice, minPrice, maxPrice: String
-    let unitsTraded, accTradeValue, prevClosingPrice, unitsTraded24H: String
-    let accTradeValue24H, fluctate24H, fluctateRate24H: String
+    public let openingPrice, closingPrice, minPrice, maxPrice: String
+    public let unitsTraded, accTradeValue, prevClosingPrice, unitsTraded24H: String
+    public let accTradeValue24H, fluctate24H, fluctateRate24H: String
 
     enum CodingKeys: String, CodingKey {
         case openingPrice = "opening_price"
